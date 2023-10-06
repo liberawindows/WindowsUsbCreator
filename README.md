@@ -34,7 +34,7 @@ curl -sL https://raw.githubusercontent.com/mathisen99/windows-usb-creator/main/i
 ## Usage
 
 1. Clone the repository:
-```git clone foobar ```
+```git clone https://github.com/mathisen99/windows-usb-creator.git ```
 2. Run the application:
 ```python3 main.py```
 3. Follow the on-screen instructions to select an ISO file and a USB drive.
