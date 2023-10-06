@@ -20,7 +20,7 @@ A user-friendly GUI application designed specifically to address a common challe
 
 ## Screenshot
 <p align="center">
-  <img src="https://imgur.com/R439Ow5.png" alt="Screenshot of the application">
+  <img src="https://imgur.com/SoLDhSN.png" alt="Screenshot of the application">
 </p>
 
 
