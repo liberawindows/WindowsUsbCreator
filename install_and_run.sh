@@ -28,9 +28,10 @@ if ! command_exists pip3; then
     sudo apt install -y python3-pip
 fi
 
-# Installing prerequisites for the application (tkinter and policykit)
-echo "Installing application prerequisites..."
-sudo apt install -y python3-tk policykit-1
+# Installing prerequisites for the application and other necessary packages
+echo "Installing application prerequisites and other necessary packages..."
+sudo apt update
+sudo apt install -y git python3-wxgtk4.0 p7zip-full grub2-common grub-pc-bin parted dosfstools ntfs-3g python3-tk policykit-1
 
 # Clone the repository
 git clone $REPO_URL $DIRECTORY_NAME

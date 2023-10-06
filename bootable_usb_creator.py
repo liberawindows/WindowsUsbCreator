@@ -72,7 +72,6 @@ class BootableUSBCreator(tk.Tk):
         """Install WoeUSB using the package manager."""
         # For simplicity, Debian/Ubuntu/mint installation steps are provided. (will add more distros later)
         commands = [
-            ["pkexec", "apt", "install", "git", "python3-wxgtk4.0", "p7zip-full", "grub2-common", "grub-pc-bin", "parted", "dosfstools", "ntfs-3g"],
             ["pkexec", "pip3", "install", "WoeUSB-ng"]
         ]
         for cmd in commands:
