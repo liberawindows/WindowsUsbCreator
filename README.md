@@ -2,6 +2,9 @@
 
 A simple GUI application to help users create a bootable Windows USB on Linux systems. The application is built using Python's `tkinter` module.
 
+## Screenshot
+![Screenshot of the application](https://imgur.com/R439Ow5.png)
+
 ## Quick Installation and Run
 
 For a quick installation and run, execute the following command:
