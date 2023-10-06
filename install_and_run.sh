@@ -2,26 +2,38 @@
 
 # Variables
 REPO_URL="https://github.com/mathisen99/windows-usb-creator.git"
-DIRECTORY_NAME="windows-creator"
+DIRECTORY_NAME="windows-usb-creator"
 
-# Check if git is installed
-if ! command -v git &> /dev/null; then
-    echo "Git is not installed. Please install git first."
-    exit 1
+# Function to check if a command exists
+command_exists() {
+    command -v "$1" &> /dev/null
+}
+
+# Install git, python3, pip3 if they don't exist
+if ! command_exists git; then
+    echo "Git is not installed. Installing git..."
+    sudo apt update
+    sudo apt install -y git
+fi
+
+if ! command_exists python3; then
+    echo "Python3 is not installed. Installing Python3..."
+    sudo apt update
+    sudo apt install -y python3
+fi
+
+if ! command_exists pip3; then
+    echo "pip3 is not installed. Installing pip3..."
+    sudo apt update
+    sudo apt install -y python3-pip
 fi
 
 # Clone the repository
 git clone $REPO_URL $DIRECTORY_NAME
 cd $DIRECTORY_NAME
 
-# Check if Python is installed
-if ! command -v python3 &> /dev/null; then
-    echo "Python3 is not installed. Please install Python3 first."
-    exit 1
-fi
-
 # Install required packages
-echo "Installing required packages..."
+echo "Installing additional required packages..."
 sudo apt update
 sudo apt install -y python3-tk policykit-1
 
