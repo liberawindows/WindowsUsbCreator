@@ -1,6 +1,22 @@
 # \#Windows @ Libera USB Creator
 
-A simple GUI application to help users create a bootable Windows USB on Linux systems. The application is built using Python's `tkinter` module.
+# Windows USB Creator for Linux
+
+A user-friendly GUI application designed specifically to address a common challenge encountered by users in the #windows channel on the Libera IRC network: creating a bootable Windows USB from a Linux system.
+
+## Connecting to Libera IRC Network
+
+1. **Using an IRC Client**:
+   - Server: `irc.libera.chat`
+   - Port: `6667` (or `6697` for SSL)
+   - Channel: `#windows`
+   
+2. **Using a Web Client**:
+   - Visit [Libera Chat's web client](https://web.libera.chat/)
+   - Choose a nickname and enter `#windows` as the channel to join.
+
+**Note**: To join the `#windows` channel, users must be registered with `NickServ` on the Libera IRC network.
+
 
 ## Screenshot
 <p align="center">
@@ -13,7 +29,7 @@ A simple GUI application to help users create a bootable Windows USB on Linux sy
 For a quick installation and run, execute the following command:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/liberawindows/windows-usb-creator/main/install_and_run.sh | bash
+curl -sL https://raw.githubusercontent.com/liberawindows/windowsusbcreator/main/install_and_run.sh | bash
 ```
 
 **Note**: Piping a script directly from the internet to `bash` is powerful but also poses security risks. Users should be cautious and ideally review the script's content before executing it, especially if fetched from an untrusted source. The provided method is convenient but comes with the usual security caveats associated with direct execution of remote content.
