@@ -1,7 +1,5 @@
 # \#Windows @ Libera USB Creator
 
-# Windows USB Creator for Linux
-
 A user-friendly GUI application designed specifically to address a common challenge encountered by users in the #windows channel on the Libera IRC network: creating a bootable Windows USB from a Linux system.
 
 ## Connecting to Libera IRC Network
