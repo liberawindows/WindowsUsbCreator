@@ -13,7 +13,7 @@ A simple GUI application to help users create a bootable Windows USB on Linux sy
 For a quick installation and run, execute the following command:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/mathisen99/windows-usb-creator/main/install_and_run.sh | bash
+curl -sL https://raw.githubusercontent.com/liberawindows/windows-usb-creator/main/install_and_run.sh | bash
 ```
 
 **Note**: Piping a script directly from the internet to `bash` is powerful but also poses security risks. Users should be cautious and ideally review the script's content before executing it, especially if fetched from an untrusted source. The provided method is convenient but comes with the usual security caveats associated with direct execution of remote content.
@@ -34,7 +34,7 @@ curl -sL https://raw.githubusercontent.com/mathisen99/windows-usb-creator/main/i
 ## Usage
 
 1. Clone the repository:
-```git clone https://github.com/mathisen99/windows-usb-creator.git ```
+```git clone https://github.com/liberawindows/WindowsUsbCreator.git ```
 2. Run the application:
 ```python3 main.py```
 3. Follow the on-screen instructions to select an ISO file and a USB drive.
