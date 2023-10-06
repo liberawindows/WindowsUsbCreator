@@ -9,8 +9,8 @@ For a quick installation and run, execute the following command:
 ```bash
 curl -sL https://raw.githubusercontent.com/mathisen99/windows-usb-creator/main/install_and_run.sh | bash
 ```
-This will clone the repository, install the necessary packages, and run the application.
-**Note**: Piping a script directly from the internet to `bash` is powerful but also poses security 
+
+**Note**: Piping a script directly from the internet to `bash` is powerful but also poses security risks. Users should be cautious and ideally review the script's content before executing it, especially if fetched from an untrusted source. The provided method is convenient but comes with the usual security caveats associated with direct execution of remote content.
 
 ## Features
 
