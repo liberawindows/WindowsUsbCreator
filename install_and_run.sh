@@ -28,14 +28,13 @@ if ! command_exists pip3; then
     sudo apt install -y python3-pip
 fi
 
+# Installing prerequisites for the application (tkinter and policykit)
+echo "Installing application prerequisites..."
+sudo apt install -y python3-tk policykit-1
+
 # Clone the repository
 git clone $REPO_URL $DIRECTORY_NAME
 cd $DIRECTORY_NAME
 
-# Install required packages
-echo "Installing additional required packages..."
-sudo apt update
-sudo apt install -y python3-tk policykit-1
-
-# Run the application
+# Run the application (which will handle WoeUSB installation if necessary)
 python3 main.py
