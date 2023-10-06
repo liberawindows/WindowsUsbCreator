@@ -2,6 +2,17 @@
 
 A simple GUI application to help users create a bootable Windows USB on Linux systems. The application is built using Python's `tkinter` module.
 
+## Quick Installation and Run
+
+For a quick installation and run, execute the following command:
+
+```bash
+curl -sL https://raw.githubusercontent.com/mathisen99/windows-usb-creator/main/install_and_run.sh | bash
+This will clone the repository, install the necessary packages, and run the application.
+```
+
+**Note**: Piping a script directly from the internet to `bash` is powerful but also poses security 
+
 ## Features
 
 - Intuitive GUI to select a Windows ISO file.
