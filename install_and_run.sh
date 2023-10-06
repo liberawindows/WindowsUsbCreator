@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-REPO_URL="https://github.com/mathisen99/windows-usb-creator.git"
+REPO_URL="https://github.com/liberawindows/WindowsUsbCreator.git"
 DIRECTORY_NAME="windows-usb-creator"
 
 # Function to check if a command exists
