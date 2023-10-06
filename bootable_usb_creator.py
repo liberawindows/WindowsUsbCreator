@@ -90,5 +90,5 @@ class BootableUSBCreator(tk.Tk):
         if self.iso_path.get() and self.usb_listbox.curselection():
             selected_usb = self.usb_listbox.get(self.usb_listbox.curselection())
             usb_path = selected_usb.split(" ")[0]
-            cmd = ["woeusb", "--target-filesystem", "NTFS", "--device", self.iso_path.get(), usb_path]
+            cmd = ["sudo", "woeusb", "--target-filesystem", "NTFS", "--device", self.iso_path.get(), usb_path]
             subprocess.Popen(cmd)
