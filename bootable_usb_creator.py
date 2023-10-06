@@ -11,7 +11,7 @@ class BootableUSBCreator(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.title("Mathisen's Windows USB Creator")
+        self.title("#Windows @ Libera USB Creator")
         self.geometry("600x400")
 
         self.iso_path = tk.StringVar()

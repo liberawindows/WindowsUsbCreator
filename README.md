@@ -1,4 +1,4 @@
-# Mathisen's Windows USB Creator
+# \#Windows @ Libera USB Creator
 
 A simple GUI application to help users create a bootable Windows USB on Linux systems. The application is built using Python's `tkinter` module.
 
